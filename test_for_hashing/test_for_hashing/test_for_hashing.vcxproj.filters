@@ -36,9 +36,6 @@
     <ClCompile Include="evaluation_function.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="zobrist_hashing_test.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="enlighting_searching.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -49,6 +46,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="zobrist_hashing.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zobrist_hashing_test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

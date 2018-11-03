@@ -46,6 +46,7 @@ void main()
 	char black[3] = "○";
 	char white[3] = "●";
 	char roaming[3] = "△";//随便定义的一个，这个是用来记录上一步的空格在哪个位置，便于悔棋
+	unsigned long long ZobristTable[15][15][2];
 	//这里准备写一个判断是PVP还是PVE的语句
 		//如果是PVE，选择黑子还是白子
 	printf("************************************************\n");
@@ -76,6 +77,7 @@ void main()
 
 	if (mode_choice == 1)
 	{
+		initTable(ZobristTable);
 		DrawBoard(board, 15, value, mode_choice, coordinate, -1);
 		while (continue_playing)
 		{
