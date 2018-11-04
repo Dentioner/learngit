@@ -1,0 +1,9 @@
+﻿  test.c
+e:\coding\learngit\test\test\test.c(8): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  e:\coding\learngit\test\test\test.c(8): note: 请考虑在格式字符串中使用“%llu”
+  e:\coding\learngit\test\test\test.c(8): note: 请考虑在格式字符串中使用“%I64u”
+e:\coding\learngit\test\test\test.c(11): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  e:\coding\learngit\test\test\test.c(11): note: 请考虑在格式字符串中使用“%llu”
+  e:\coding\learngit\test\test\test.c(11): note: 请考虑在格式字符串中使用“%I64u”
+e:\coding\learngit\test\test\test.c(7): warning C4244: “初始化”: 从“unsigned __int64”转换到“long”，可能丢失数据
+  test.vcxproj -> E:\coding\learngit\test\Debug\test.exe
